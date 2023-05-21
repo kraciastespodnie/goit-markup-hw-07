@@ -4,7 +4,7 @@
             rgba(47, 48, 58, 0.4)
         ),
         url(../images/banner-image.jpg);
-    background-color: var(--background-firs-color);
+    background-color: $backgroundFirsColor;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1600px;

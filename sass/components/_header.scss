@@ -15,7 +15,7 @@
 
     &__link {
         text-decoration: none;
-        color: var(--main-color);
+        color: $mainColor;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.38;
@@ -58,7 +58,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        color: var(--description-color);
+        color: $descriptionColor;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.38;

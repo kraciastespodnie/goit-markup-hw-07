@@ -7,14 +7,15 @@
     letter-spacing: 0.03em;
 
     &--firstpart {
-        color: $logo-color-first;
-    }
-
-    &--studio-footer {
-        color: $logo-color-third;
+        color: $logoFirstColor;
     }
 
     &--studio {
-        color: $logo-color-second;
+        color: $logoSecondColor;
     }
+
+    &--studio-footer {
+        $logoThirdColor;
+    }
+
 }

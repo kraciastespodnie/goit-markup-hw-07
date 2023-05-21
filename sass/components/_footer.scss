@@ -11,120 +11,120 @@
 .footer-styles {
     margin-right: 70px;
 
-
     &__title {
         font-size: 14px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    display: block;
-    margin-bottom: 20px;
-    padding-top: 12px;
-    text-transform: uppercase;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+        display: block;
+        margin-bottom: 20px;
+        padding-top: 12px;
+        text-transform: uppercase;
     }
 
     &__icon {
         display: flex;
-    list-style: none;
+        list-style: none;
 
-    &--icons-gap {
-        gap: 10px;
-    }
+        &--icons-gap {
+            gap: 10px;
+        }
     }
 
-&__social-icons {
-     width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
- transition-property: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &__social-icons {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         fill: $background-third-color;
 
-
-    &:hover,
-    &:active {
-background-color: #2196f3;
-    cursor: pointer;
+        &:hover,
+        &:focus {
+            background-color: #2196f3;
+            fill: #ffffff;
+            cursor: pointer;
+        }
     }
-}
 
-&__form-input {
-    width: 358px;
-    height: 50px;
-    margin-right: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    background-color: $background-firs-color;
-    color: #ffffff;
-    padding: 15px 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    &__form-input {
+        width: 358px;
+        height: 50px;
+        margin-right: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        background-color: $background-firs-color;
+        color: #ffffff;
+        padding: 15px 16px;
+        transition: transform 250ms ease-in, box-shadow 250ms ease-in;
 
-    &::placeholder {
+        &::placeholder {
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+
+    &__newsletter-button {
+        width: 200px;
+        height: 50px;
+        margin-top: 48px;
+        padding: 13px 28px 5px 34px;
+        background-color: var(--button);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
+        font-weight: 700;
         font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        cursor: pointer;
+
+        &:active {
+            box-shadow: $activeBtnShadow;
+        }
     }
-}
 
-&__newsletter-button {
-    margin-top: 48px;
-    padding: 13px 28px 5px 34px;
-    background-color: $button;
-    color: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-
-    &:active {
-        box-shadow: $activeBtnShadow;
+    &__newsletter-button-icon {
+        margin-left: 31px;
+        margin-bottom: 10px;
     }
-}
-
-&__newsletter-button-icon {
-  margin-left: 24px;
-    fill: #ffffff;
 }
 
 .footer-address {
-    font-size: 14px;
     font-style: normal;
     color: #ffffff;
     line-height: 1.71;
     letter-spacing: 0.03em;
     vertical-align: top;
-    letter-spacing: 0.25px;
+    margin-top: 20px;
 
     &--margin {
-margin-top: 20px;
+        margin-top: 20px;
     }
-    
 
-&__link {
-    text-decoration: none;
-        color: #ffffff99;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &__link {
+        text-decoration: none;
+        font-size: 14px;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        vertical-align: top;
+        margin-top: 20px;
 
-    &:hover,
-    &:focus {
-        color: #2196f3;
+        &:hover,
+        &:focus {
+            color: #2196f3;
+        }
     }
-}
 }

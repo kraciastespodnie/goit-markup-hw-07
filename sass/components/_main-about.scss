@@ -12,7 +12,7 @@
 .advantages-title {
     font-size: 14px;
     font-weight: 700;
-    color: var(--main-color);
+    color: $mainColor;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -20,7 +20,7 @@
 
 .advantages-text {
     font-size: 14px;
-    color: var(--description-color);
+    color: $descriptionColor;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }

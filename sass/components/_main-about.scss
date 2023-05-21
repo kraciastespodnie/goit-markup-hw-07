@@ -1,26 +1,26 @@
-.about-container {
+.advantages-list div {
     display: flex;
     width: 270px;
     height: 120px;
     justify-content: center;
     align-items: center;
-    background-color: hsla(250, 38%, 97%, 1);
-    border-radius: 4px;
+    background: #f5f4fa;
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 
-.about-title {
+.advantages-title {
+    font-size: 14px;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.15;
+    color: var(--main-color);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    letter-spacing: 0.25px;
-    padding-bottom: 10px;
 }
 
-.about-description {
+.advantages-text {
     font-size: 14px;
-    line-height: 1.7;
-    color: $descriptionColor;
-    letter-spacing: 0.25px;
+    color: var(--description-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }

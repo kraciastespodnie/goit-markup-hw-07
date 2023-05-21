@@ -63,23 +63,23 @@
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
                             <button
-                                class="button-close"
+                                class="modal__button-close"
                                 type="button"
                                 data-modal-close
                             >
                                 x
                             </button>
-                            <h3>Zostaw swoje dane w formularzu poniżej</h3>
+                            <h3 class="modal__form-title">Zostaw swoje dane w formularzu poniżej</h3>
                             <div class="modal-content">
                                 <form
-                                    class="modal-form"
+                                    class="modal__form"
                                     name="contakt-form"
                                     autocomplete="on"
                                 >
-                                    <label class="modal-form-box" for="name">
-                                        <span>Imię</span>
+                                    <label class="modal__form-box" for="name">
+                                        <span class="modal__form-box-name">Imię</span>
                                         <svg
-                                            class="modal-form-icon"
+                                            class="modal__form-icon"
                                             width="18px"
                                             height="18px"
                                         >
@@ -88,17 +88,17 @@
                                             ></use>
                                         </svg>
                                         <input
-                                            class="modal-form-input"
+                                            class="modal__form-input"
                                             type="text"
                                             name="client-name"
                                             required
                                         />
                                     </label>
 
-                                    <label class="modal-form-box" for="name">
-                                        <span>Telefon</span>
+                                    <label class="modal__form-box" for="name">
+                                        <span class="modal__form-box-name">Telefon</span>
                                         <svg
-                                            class="modal-form-icon"
+                                            class="modal__form-icon"
                                             width="18px"
                                             height="18px"
                                         >
@@ -107,17 +107,17 @@
                                             ></use>
                                         </svg>
                                         <input
-                                            class="modal-form-input"
+                                            class="modal__form-input"
                                             type="text"
                                             name="client-name"
                                             required
                                         />
                                     </label>
 
-                                    <label class="modal-form-box" for="name">
-                                        <span>E-mail</span>
+                                    <label class="modal__form-box" for="name">
+                                        <span class="modal__form-box-name">E-mail</span>
                                         <svg
-                                            class="modal-form-icon"
+                                            class="modal__form-icon"
                                             width="18px"
                                             height="18px"
                                         >
@@ -126,43 +126,43 @@
                                             ></use>
                                         </svg>
                                         <input
-                                            class="modal-form-input"
+                                            class="modal__form-input"
                                             type="text"
                                             name="client-name"
                                             required
                                         />
                                     </label>
 
-                                    <label class="modal-form-box" for="name">
-                                        <span>Komentarz</span>
+                                    <label class="modal__form-box" for="name">
+                                        <span class="modal__form-box-name">Komentarz</span>
                                         <textarea
-                                            class="modal-form-input-text"
+                                            class="modal__form-input-text"
                                             type="text"
                                             name="client-comment"
                                             placeholder="Wprowadź tekst"
                                         ></textarea>
                                     </label>
-                                    <div class="modal-form-checkbox">
-                                        <input
-                                            id="checkbox-statute"
+                                    <div class="checkbox">
+                                        <input class="checkbox__input"
+                                            id="checkbox__statute"
                                             type="checkbox"
                                             name="checkbox-accept"
                                             required
                                         />
                                         <label
-                                            class="form-checkbox-text"
-                                            for="checkbox-statute"
+                                            class="checkbox__text"
+                                            for="checkbox__statute"
                                         >
-                                            <span
+                                            <span class="checkbox__info"
                                                 >Oświadczam iż akceptuję
                                                 <a
-                                                    class="modal-form-link"
+                                                    class="checkbox__link"
                                                     href="#"
                                                     >Regulamin</a
                                                 >
                                                 i
                                                 <a
-                                                    class="modal-form-link"
+                                                    class="checkbox__link"
                                                     href="#"
                                                     >Politykę Prywatności.</a
                                                 ></span
@@ -170,7 +170,7 @@
                                         </label>
                                     </div>
                                     <button
-                                        class="modal-form-submit"
+                                        class="checkbox__button"
                                         type="submit"
                                     >
                                         Wyślij
